@@ -26,7 +26,7 @@ public class LoginConfirmationEmail {
 
         Session session = Session.getInstance(props, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("digozanchetta@gmail.com", "onbongoxd");
+                return new PasswordAuthentication("email@gmail.com", "12345");
             }
         });
         Message msg = new MimeMessage(session);
